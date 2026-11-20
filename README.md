@@ -27,7 +27,7 @@ To collect employee details, validate inputs, and calculate gross and net salary
 9. **Stop** the program.
 
 ## Program
-def main():
+def generate_payroll_report():
     name = input("Enter Employee Name: ").strip()
     emp_id = input("Enter Employee ID: ").strip()
 
@@ -67,12 +67,9 @@ def main():
     print(f"Net Salary    : {net_salary:10.2f}")
     print("=" * 42)
 
-
-if __name__ == "__main__":
-    main()
-
+generate_payroll_report()
 ## Output
-<img width="427" height="448" alt="image" src="https://github.com/user-attachments/assets/b4861e03-2294-4e63-9cb5-513014e86878" />
+<img width="431" height="416" alt="image" src="https://github.com/user-attachments/assets/d8bd57b7-94e7-4aed-89e7-f17dc0716819" />
 
 
 ## ✅ Result
